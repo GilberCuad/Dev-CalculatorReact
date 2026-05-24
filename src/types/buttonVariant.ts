@@ -1,0 +1,1 @@
+export type ButtonVariant = 'number' | 'operator' | 'function' | 'equals';

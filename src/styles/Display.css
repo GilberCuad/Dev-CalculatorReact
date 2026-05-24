@@ -1,0 +1,20 @@
+.display {
+  background: #0d0d1a;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: right;
+}
+
+.expression {
+  color: #555;
+  font-size: 13px;
+  min-height: 18px;
+}
+
+.current-value {
+  color: #e8f4ff;
+  font-size: 32px;
+  font-weight: bold;
+  word-break: break-all;
+}

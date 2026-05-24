@@ -1,0 +1,13 @@
+.calculator {
+  background: #1a1a2e;
+  border-radius: 20px;
+  padding: 20px;
+  width: 280px;
+  border: 1px solid #2d2d4e;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
