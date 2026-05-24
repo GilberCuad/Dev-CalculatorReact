@@ -80,7 +80,7 @@ export const useCalculator = () => {
       }
 
       const result = operations[prev.operator](a, b);
-      const clean = parseFloat(result.toFixed(10).toString()); // Clean up floating point precision issues
+      const clean = parseFloat(result.toFixed(3).toString()); // Clean up floating point precision issues
 
       return {
         ...prev,
